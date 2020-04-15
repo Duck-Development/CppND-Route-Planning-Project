@@ -36,6 +36,22 @@ instll png
 ```
 sudo apt install libpng-dev
 ```
+
+# Configure  VS Code
+isntall extension
+
+```
+ms-vscode.cpptools
+
+xaver.clang-format
+
+notskm.clang-tidy
+
+ms-vscode.cmake-tools
+```
+
+
+
 # Route Planning Project
 
 This repo contains the starter code for the Route Planning project.
