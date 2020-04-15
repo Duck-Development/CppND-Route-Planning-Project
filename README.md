@@ -1,24 +1,41 @@
 
 # configure a CLEAN  Ubuntu 20.04 Beta
 install htop
+```
 sudo apt install htop
+```
 install vim
+```
 sudo apt install vim
+```
 install cmake
- sudo snap install --classic cmake
+``` 
+sudo snap install --classic cmake
+```
 instal Visual Code 
- sudo snap install --classic code
+```
+sudo snap install --classic code
+```
 install git
- sudo apt install git 
- instll gcc 
- sudo apt install build-essential
+```
+sudo apt install git 
+```
+instll gcc 
+```
+sudo apt install build-essential
+```
 instll cairo dev 
+```
 sudo apt install libcairo2-dev
+```
 install graphicsmagick
+```
 sudo apt install libgraphicsmagick1-dev
+```
 instll png
+```
 sudo apt install libpng-dev
-
+```
 # Route Planning Project
 
 This repo contains the starter code for the Route Planning project.
