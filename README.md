@@ -48,6 +48,8 @@ xaver.clang-format
 notskm.clang-tidy
 
 ms-vscode.cmake-tools
+
+webfreak.debug
 ```
 
 
