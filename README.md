@@ -1,3 +1,24 @@
+
+# configure a CLEAN  Ubuntu 20.04 Beta
+install htop
+sudo apt install htop
+install vim
+sudo apt install vim
+install cmake
+ sudo snap install --classic cmake
+instal Visual Code 
+ sudo snap install --classic code
+install git
+ sudo apt install git 
+ instll gcc 
+ sudo apt install build-essential
+instll cairo dev 
+sudo apt install libcairo2-dev
+install graphicsmagick
+sudo apt install libgraphicsmagick1-dev
+instll png
+sudo apt install libpng-dev
+
 # Route Planning Project
 
 This repo contains the starter code for the Route Planning project.
@@ -6,14 +27,12 @@ This repo contains the starter code for the Route Planning project.
 
 ## Cloning
 
-When cloning this project, be sure to use the `--recurse-submodules` flag. Using HTTPS:
+When cloning this project, be sure to use the `--recurse-submodules` flag. Using SSH:
 ```
-git clone https://github.com/udacity/CppND-Route-Planning-Project.git --recurse-submodules
+git clone git@github.com:Duck-Development/CppND-Route-Planning-Project.git --recurse-submodules
 ```
-or with SSH:
-```
-git clone git@github.com:udacity/CppND-Route-Planning-Project.git --recurse-submodules
-```
+Cloing IO2D
+ https://github.com/cpp-io2d/P0267_RefImpl.git
 
 ## Dependencies for Running Locally
 * cmake >= 3.11.3
