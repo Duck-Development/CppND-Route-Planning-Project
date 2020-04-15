@@ -93,7 +93,7 @@ mkdir build && cd build
 ```
 From within the `build` directory, then run `cmake` and `make` as follows:
 ```
-cmake ..
+make -DCMAKE_BUILD_TYPE=Debug  ..
 make
 ```
 ### Running
