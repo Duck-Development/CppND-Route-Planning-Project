@@ -63,23 +63,22 @@ int main(int argc, const char **argv)
 
     std::cout << std::endl << "Please enter the start X coorinate(0..100)ptc: ";
     std::cin >> start_x;
+        std::cout << std::endl << "Please enter the start Y coorinate(0..100)ptc: ";
+    std::cin >> start_y;
+
 
     std::cout << std::endl << "Please enter the end X coorinate(0..100)ptc: ";
     std::cin >> end_x;
-
-    std::cout << std::endl << "Please enter the start Y coorinate(0..100)ptc: ";
-    std::cin >> start_y;
-
     std::cout << std::endl << "Please enter the end Y coorinate(0..100)ptc: ";
     std::cin >> end_y;
      
-
-
+    std::cout << " the route starts from: x= " <<    start_x  << " y=  "  << start_y << " and goes to: x= " <<  end_x << " y= "  << end_y << std::endl;
+ 
     // Build Model.
     RouteModel model{osm_data};
 
     // Create RoutePlanner object and perform A* search.
-    RoutePlanner route_planner{model, start_x, end_x, start_y, end_y};
+    RoutePlanner route_planner{model, start_x, start_y, end_x, end_y};
     route_planner.AStarSearch();
 
     std::cout << "Distance: " << route_planner.GetDistance() << " meters. \n";
