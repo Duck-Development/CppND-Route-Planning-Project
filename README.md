@@ -1,3 +1,59 @@
+
+# configure a CLEAN  Ubuntu 20.04 Beta
+install htop
+```
+sudo apt install htop
+```
+install vim
+```
+sudo apt install vim
+```
+install cmake
+``` 
+sudo snap install --classic cmake
+```
+instal Visual Code 
+```
+sudo snap install --classic code
+```
+install git
+```
+sudo apt install git 
+```
+instll gcc 
+```
+sudo apt install build-essential
+```
+instll cairo dev 
+```
+sudo apt install libcairo2-dev
+```
+install graphicsmagick
+```
+sudo apt install libgraphicsmagick1-dev
+```
+instll png
+```
+sudo apt install libpng-dev
+```
+
+# Configure  VS Code
+isntall extension
+
+```
+ms-vscode.cpptools
+
+xaver.clang-format
+
+notskm.clang-tidy
+
+ms-vscode.cmake-tools
+
+webfreak.debug
+```
+
+
+
 # Route Planning Project
 
 This repo contains the starter code for the Route Planning project.
@@ -6,14 +62,12 @@ This repo contains the starter code for the Route Planning project.
 
 ## Cloning
 
-When cloning this project, be sure to use the `--recurse-submodules` flag. Using HTTPS:
+When cloning this project, be sure to use the `--recurse-submodules` flag. Using SSH:
 ```
-git clone https://github.com/udacity/CppND-Route-Planning-Project.git --recurse-submodules
+git clone git@github.com:Duck-Development/CppND-Route-Planning-Project.git --recurse-submodules
 ```
-or with SSH:
-```
-git clone git@github.com:udacity/CppND-Route-Planning-Project.git --recurse-submodules
-```
+Cloing IO2D
+ https://github.com/cpp-io2d/P0267_RefImpl.git
 
 ## Dependencies for Running Locally
 * cmake >= 3.11.3
@@ -39,7 +93,7 @@ mkdir build && cd build
 ```
 From within the `build` directory, then run `cmake` and `make` as follows:
 ```
-cmake ..
+cmake -DCMAKE_BUILD_TYPE=Debug  ..
 make
 ```
 ### Running
