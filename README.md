@@ -67,7 +67,7 @@ When cloning this project, be sure to use the `--recurse-submodules` flag. Using
 git clone git@github.com:Duck-Development/CppND-Route-Planning-Project.git --recurse-submodules
 ```
 Cloing IO2D
- https://github.com/cpp-io2d/P0267_RefImpl.git
+git clone  https://github.com/cpp-io2d/P0267_RefImpl.git --recurse-submodules
 
 ## Dependencies for Running Locally
 * cmake >= 3.11.3
